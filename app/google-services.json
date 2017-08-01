@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "906477210464",
+    "firebase_url": "https://application1-4fae3.firebaseio.com",
+    "project_id": "application1-4fae3",
+    "storage_bucket": "application1-4fae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906477210464:android:b7d49ffa0d65afac",
+        "android_client_info": {
+          "package_name": "com.example.emili.application1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906477210464-6dtgopemg1t36vosa2sucapu8v042tnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emili.application1",
+            "certificate_hash": "0ce9cd084b14a3f52dd429eeb332461d3f0b8355"
+          }
+        },
+        {
+          "client_id": "906477210464-i5ijj889hocnq6nk12uhum5pq9av8oe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBXXiZaiTogg-CdhmQWB9jzuC8O6AVLO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906477210464-i5ijj889hocnq6nk12uhum5pq9av8oe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

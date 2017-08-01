@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emili.application1.ConnexionActivity">
+
+
+    <EditText
+        android:id="@+id/email_connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp"
+        />
+
+    <EditText
+        android:id="@+id/password_connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="*******"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp" />
+
+    <Button
+        android:id="@+id/connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="325dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="150dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="209dp"
+        android:layout_height="388dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="98dp"/>
+
+</android.support.constraint.ConstraintLayout>
